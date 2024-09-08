@@ -65,21 +65,3 @@ print(image_description)
 
 print("\n--- Short Story Based on Image ---")
 print(short_story_generation(client, image_description))
-
-# # Multiple image processing
-# base64_image1 = encode_image('husky.png')
-# base64_image2 = encode_image('bulldog.png')
-
-# image_description1 = image_to_text(client, llava_model, base64_image1, prompt)
-# image_description2 = image_to_text(client, llava_model, base64_image2, prompt)
-
-# print("\n--- Image Description (Husky) ---")
-# print(image_description1)
-
-# print("\n--- Image Description (Bulldog) ---")
-# print(image_description2)
-
-# combined_image_description = image_description1 + '\n\n' + image_description2
-
-# print("\n--- Short Story (Based on Husky and Bulldog) ---")
-# print(short_story_generation(client, combined_image_description))
