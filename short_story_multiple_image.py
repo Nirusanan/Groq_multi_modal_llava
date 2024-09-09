@@ -54,8 +54,8 @@ def short_story_generation(client, image_description):
 
 
 # Multiple image processing
-image1 = encode_image('dog_1.jpg')
-image2 = encode_image('dog_2.jpg')
+image1 = encode_image('images\dog_1.jpg')
+image2 = encode_image('images\dog_2.jpg')
 
 prompt = "Describe this image"
 
