@@ -7,7 +7,7 @@ llava_model = 'llava-v1.5-7b-4096-preview'
 llama31_model = 'llama-3.1-70b-versatile'
 
 # 2. Image encoding
-image_path = 'y3.jpg'
+image_path = 'images\y3.jpg'
 def encode_image(image_path):
   with open(image_path, "rb") as image_file:
     return base64.b64encode(image_file.read()).decode('utf-8')
